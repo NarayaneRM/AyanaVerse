@@ -1,0 +1,20 @@
+.reports_bottom-4 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 365px;
+  min-width: 104px;
+  padding: 1.0px 0;
+  position: fixed;
+  top: 49px;
+  z-index: 9;
+}
+
+.reports-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 74px;
+}
+

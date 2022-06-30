@@ -1,0 +1,20 @@
+.projects_bottom-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  justify-content: flex-end;
+  left: 188px;
+  min-width: 129px;
+  padding: 3.8px 0;
+  position: fixed;
+  top: 22px;
+  z-index: 8;
+}
+
+.projects-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 90px;
+}
+

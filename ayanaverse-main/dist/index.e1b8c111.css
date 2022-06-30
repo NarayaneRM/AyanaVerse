@@ -1,0 +1,3667 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Spinnaker:400";
+@import "https://px.animaapp.com/62bcc9d4c6d2387a92622b36.62bcc9d58d42e5d90d887fe9.CaeJeTn.rcp.png";
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.container-center-horizontal {
+  pointer-events: none;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --amethyst: #6f5c94;
+  --black: #000;
+  --black-2: #00000024;
+  --cyber-grape: #594b76;
+  --onahau: #c8eeff;
+  --persian-indigo: #2f106d;
+  --valhalla: #28154d;
+  --white: #fff;
+  --white-2: #ffffff3b;
+  --winter-wizard: #a2e2fe;
+  --font-size-l: 9px;
+  --font-size-m: 8px;
+  --font-size-s: 6px;
+  --font-size-xl: 10px;
+  --font-size-xxl: 14px;
+  --font-size-xxxl: 15px;
+  --font-size-xxxxl: 20px;
+  --font-family-spinnaker: "Spinnaker", Helvetica;
+}
+
+.spinnaker-normal-onahau-9px {
+  color: var(--onahau);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-onahau-8px {
+  color: var(--onahau);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-onahau-10px {
+  color: var(--onahau);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-amethyst-9px {
+  color: var(--amethyst);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-white-9px {
+  color: var(--white);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-onahau-12px {
+  color: var(--onahau);
+  font-family: var(--font-family-spinnaker);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-onahau-6px {
+  color: var(--onahau);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-spinnaker);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-winter-wizard-14px {
+  color: var(--winter-wizard);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-persian-indigo-12px {
+  color: var(--persian-indigo);
+  font-family: var(--font-family-spinnaker);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-spinnaker);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.spinnaker-normal-winter-wizard-12px {
+  color: var(--winter-wizard);
+  font-family: var(--font-family-spinnaker);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-onahau {
+  border: 1px solid var(--onahau);
+}
+
+.border-1px-white {
+  border: 1px solid var(--white);
+}
+
+
+
+.group-12 {
+  background-color: var(--valhalla);
+  cursor: pointer;
+  height: 67px;
+  min-width: 283px;
+  border-radius: 30px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 21px 27.4px;
+  transition: all .2s;
+  display: flex;
+  position: absolute;
+  top: 634px;
+  left: 485px;
+}
+
+.group-12:hover {
+  transform: translate(0, -5px);
+}
+
+.dao_blockchain_projects-9 {
+  letter-spacing: 0;
+  min-height: 24px;
+  min-width: 155px;
+}
+
+.arrow-1 {
+  height: 15px;
+  width: 36px;
+  align-self: center;
+  margin-top: 1px;
+  margin-left: 12px;
+}
+
+.group-12.group-12-1 {
+  top: 656px;
+  left: 335px;
+}
+
+.group-12.group-12-2 {
+  top: 656px;
+  left: 406px;
+}
+
+.group-12.group-12-3 {
+  top: 1072px;
+  left: 488px;
+}
+
+.group-5 {
+  width: 376px;
+  display: flex;
+}
+
+.month_2 {
+  min-width: 62px;
+  align-items: flex-start;
+  margin-top: 4px;
+  display: flex;
+}
+
+.overlap-group1 {
+  height: 60px;
+  min-width: 60px;
+  border-radius: 30px;
+  align-items: flex-start;
+  padding: 23px 0;
+  display: flex;
+}
+
+.month_name {
+  letter-spacing: 0;
+  min-height: 11px;
+  text-align: center;
+  width: 60px;
+  margin-left: -1px;
+}
+
+.event_card_2 {
+  height: 67px;
+  min-width: 269px;
+  align-items: flex-start;
+  margin-left: 51px;
+  display: flex;
+}
+
+.event_-container {
+  min-height: 67px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 9px;
+  display: flex;
+}
+
+.event_number {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 103px;
+  align-self: center;
+  margin-top: 2px;
+  margin-right: 18px;
+}
+
+.event_title {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 12px;
+}
+
+.event_link {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 3px;
+}
+
+.group-5.group-1, .group-5.group-2, .group-5.group-3, .group-5.group-4 {
+  margin-top: 57px;
+}
+
+.group-5.group-15 {
+  margin-top: 86px;
+}
+
+.group-5.group-21, .group-5.group-21-1, .group-5.group-21-2 {
+  width: 376px;
+  margin-top: 97px;
+  display: flex;
+}
+
+.group-5.group-15-1, .group-5.group-15-2, .group-5.group-15-3 {
+  width: 376px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.projects_bottom {
+  cursor: pointer;
+  height: 24px;
+  min-width: 129px;
+  z-index: 7;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 3.8px 0;
+  display: flex;
+  position: fixed;
+  top: 36px;
+  left: 866px;
+}
+
+.projects {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 90px;
+}
+
+.projects_bottom.projects_bottom-1 {
+  z-index: 6;
+  left: 442px;
+}
+
+.projects_bottom.projects_bottom-2 {
+  top: 38px;
+  left: 247px;
+}
+
+.courses_bottom {
+  cursor: pointer;
+  height: 29px;
+  min-width: 129px;
+  z-index: 6;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 5.7px 0;
+  display: flex;
+  position: fixed;
+  top: 33px;
+  left: 995px;
+}
+
+.courses {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 82px;
+}
+
+.courses_bottom.courses_bottom-1 {
+  z-index: 5;
+  left: 557px;
+}
+
+.courses_bottom.courses_bottom-2 {
+  top: 35px;
+  left: 340px;
+}
+
+.nft_view_bottom {
+  cursor: pointer;
+  height: 24px;
+  min-width: 118px;
+  z-index: 5;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.9px 0;
+  display: flex;
+  position: fixed;
+  top: 37px;
+  left: 1124px;
+}
+
+.nft_view {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 79px;
+}
+
+.nft_view_bottom.nft_view_bottom-1 {
+  z-index: 4;
+  left: 665px;
+}
+
+.nft_view_bottom.nft_view_bottom-2 {
+  top: 39px;
+  left: 435px;
+}
+
+.calendar_bottom {
+  cursor: pointer;
+  height: 24px;
+  min-width: 128px;
+  z-index: 4;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 2px 0;
+  display: flex;
+  position: fixed;
+  top: 32px;
+  left: 1241px;
+}
+
+.calendar {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 89px;
+}
+
+.calendar_bottom.calendar_bottom-1 {
+  z-index: 3;
+  left: 759px;
+}
+
+.calendar_bottom.calendar_bottom-2 {
+  top: 34px;
+  left: 529px;
+}
+
+.reports_bottom {
+  cursor: pointer;
+  height: 19px;
+  min-width: 114px;
+  z-index: 3;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1px 0;
+  display: flex;
+  position: fixed;
+  top: 38px;
+  left: 1369px;
+}
+
+.reports {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 81px;
+}
+
+.reports_bottom.reports_bottom-1 {
+  z-index: 8;
+  top: 36px;
+  left: 871px;
+}
+
+.reports_bottom.reports_bottom-2 {
+  z-index: 8;
+  left: 641px;
+}
+
+.reports_bottom.reports_bottom-3 {
+  cursor: unset;
+  min-width: 103px;
+  top: 34px;
+  left: 704px;
+}
+
+.reports_bottom.reports_bottom-3 .reports {
+  width: 73px;
+}
+
+.desktop {
+  background-color: var(--white);
+  width: 1600px;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlap-group16 {
+  height: 4800px;
+  width: 1601px;
+  z-index: 1;
+  position: relative;
+}
+
+.background {
+  background-color: var(--valhalla);
+  height: 4800px;
+  width: 1600px;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+.rectangle-1 {
+  background-color: var(--white-2);
+  height: 754px;
+  width: 1600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.courses_page {
+  background-color: var(--valhalla);
+  height: 650px;
+  width: 1440px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 1494px;
+  left: 80px;
+  overflow: hidden;
+}
+
+.dao_blockchain_projects {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 97px;
+  margin-bottom: 39px;
+  margin-left: -100px;
+}
+
+.flex-col {
+  min-height: 352px;
+  width: 240px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 74px;
+  display: flex;
+}
+
+.dao_blockchain_projects-1 {
+  letter-spacing: 0;
+  min-height: 105px;
+  text-align: center;
+  width: 240px;
+}
+
+.graph2 {
+  height: 199px;
+  width: 214px;
+  margin-top: 48px;
+}
+
+.overlap-group-container-1 {
+  min-height: 420px;
+  width: 952px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 71px;
+  display: flex;
+}
+
+.overlap-group3 {
+  height: 120px;
+  min-width: 952px;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10px 13px;
+  display: flex;
+}
+
+.course_-container {
+  min-height: 91px;
+  width: 848px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2px;
+  display: flex;
+}
+
+.course_topics {
+  letter-spacing: 0;
+  min-height: 48px;
+  width: 848px;
+}
+
+.course_description {
+  letter-spacing: 0;
+  min-height: 36px;
+  width: 848px;
+  margin-top: 7px;
+}
+
+.overlap-group {
+  background-color: var(--onahau);
+  height: 40px;
+  min-width: 40px;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 22px;
+  padding: 0 2px;
+  display: flex;
+}
+
+.percent {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 34px;
+}
+
+.overlap-group-1 {
+  height: 120px;
+  min-width: 952px;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 10px 13px;
+  display: flex;
+}
+
+.overlap-group4 {
+  background-color: var(--black-2);
+  height: 180px;
+  min-width: 883px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 33px 88px;
+  display: flex;
+  position: absolute;
+  top: 161px;
+  left: 56px;
+}
+
+.dao_blockchain_projects-2 {
+  letter-spacing: 0;
+  min-height: 113px;
+  text-align: right;
+  width: 691px;
+}
+
+.overlap-group5 {
+  background-color: var(--black-2);
+  height: 180px;
+  min-width: 1279px;
+  align-items: flex-start;
+  padding: 33px 61px;
+  display: flex;
+  position: absolute;
+  top: 402px;
+  left: 245px;
+}
+
+.dao_blockchain_projects-3 {
+  letter-spacing: 0;
+  min-height: 113px;
+  width: 683px;
+}
+
+.ayana_droid {
+  height: 522px;
+  width: 504px;
+  position: absolute;
+  top: 231px;
+  left: 985px;
+}
+
+.foot {
+  background-color: var(--white);
+  height: 170px;
+  width: 1594px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 4630px;
+  left: 6px;
+}
+
+.redes_socias-container {
+  background-color: var(--amethyst);
+  height: 170px;
+  min-width: 1594px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 32px 545px;
+  display: flex;
+}
+
+.redes_socias-1 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+}
+
+.redes_socias-2 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 155px;
+}
+
+.redes_socias-3 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 186px;
+}
+
+.projects_page {
+  background-color: var(--white);
+  height: 650px;
+  width: 1440px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 754px;
+  left: 80px;
+}
+
+.overlap-group12 {
+  background-color: var(--valhalla);
+  min-height: 650px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 14px 230.6px;
+  display: flex;
+}
+
+.dao_blockchain_projects-4 {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 444px;
+  align-self: center;
+  margin-top: 111px;
+  margin-left: 56px;
+}
+
+.flex-row {
+  height: 452px;
+  min-width: 953px;
+  align-items: flex-end;
+  margin-top: 24px;
+  display: flex;
+}
+
+.flex-col-1 {
+  min-height: 449px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.dao_blockchain_projects-5 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-right: 15px;
+}
+
+.overlap-group-2 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 23px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 103px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 18px;
+}
+
+.title {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 12px;
+}
+
+.status {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 20px;
+}
+
+.overlap-group-3 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 18px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-1 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 106px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 15px;
+}
+
+.number-2 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.flex-col-2 {
+  min-height: 449px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 77px;
+  display: flex;
+}
+
+.defi_blockchain_projects {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-left: 19px;
+}
+
+.flex-col-3 {
+  min-height: 452px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 87px;
+  display: flex;
+}
+
+.nft_blockchain_projects {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 130px;
+  margin-left: 17px;
+}
+
+.overlap-group8 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 26px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.overlap-group11 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-6 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.overlap-group-6 {
+  height: 10px;
+  width: 243px;
+  margin-top: 12px;
+  position: relative;
+}
+
+.title-1 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.full-stack-nft-marke {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.status-1 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  align-self: flex-start;
+  margin-top: 19px;
+}
+
+.nftview_page {
+  background-color: var(--white);
+  height: 750px;
+  width: 1440px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 2144px;
+  left: 78px;
+}
+
+.overlap-group13 {
+  background-color: var(--valhalla);
+  min-height: 750px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 26px 114px;
+  display: flex;
+}
+
+.dao_blockchain_projects-6 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 735px;
+  align-self: center;
+  margin-top: 96px;
+  margin-right: 1px;
+}
+
+.overlap-group-container-2 {
+  min-width: 1211px;
+  align-items: flex-start;
+  margin-top: 25px;
+  display: flex;
+}
+
+.overlap-group-4 {
+  height: 262px;
+  width: 263px;
+  position: relative;
+}
+
+.eth, .eth-1, .eth-2, .eth-3, .eth-4, .eth-5, .eth-6, .eth-7 {
+  height: 17px;
+  width: 10px;
+  position: absolute;
+  top: 228px;
+  left: 190px;
+}
+
+.nft_card {
+  height: 259px;
+  width: 263px;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.surname {
+  letter-spacing: 0;
+  text-align: center;
+  width: 78px;
+  position: absolute;
+  top: 214px;
+  left: 179px;
+}
+
+.collection {
+  letter-spacing: 0;
+  width: 95px;
+  position: absolute;
+  top: 216px;
+  left: 13px;
+}
+
+.number-3 {
+  letter-spacing: 0;
+  width: 114px;
+  position: absolute;
+  top: 233px;
+  left: 13px;
+}
+
+.value {
+  letter-spacing: 0;
+  text-align: center;
+  width: 47px;
+  position: absolute;
+  top: 232px;
+  left: 195px;
+}
+
+.rectangle-38 {
+  background-color: var(--black);
+  height: 199px;
+  width: 263px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.number-4 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 213px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+}
+
+.number-5 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 114px;
+  position: absolute;
+  top: 91px;
+  left: 75px;
+}
+
+.overlap-group-5 {
+  height: 262px;
+  width: 263px;
+  margin-left: 53px;
+  position: relative;
+}
+
+.overlap-group-container-3 {
+  min-width: 1211px;
+  align-items: flex-start;
+  margin-top: 18px;
+  display: flex;
+}
+
+.calendar_page {
+  background-color: var(--white);
+  height: 650px;
+  width: 1440px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 2894px;
+  left: 80px;
+  overflow: hidden;
+}
+
+.flex-row-1 {
+  background-color: var(--valhalla);
+  height: 720px;
+  min-width: 1440px;
+  align-items: flex-end;
+  margin-bottom: -70px;
+  padding: 110px 70px;
+  display: flex;
+}
+
+.group-container {
+  min-height: 315px;
+  width: 376px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3px;
+  display: flex;
+  position: relative;
+}
+
+.flex-col-4 {
+  min-height: 436px;
+  width: 376px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 86px;
+  display: flex;
+  position: relative;
+}
+
+.dao_blockchain_projects-7 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 287px;
+}
+
+.group-container-1 {
+  min-height: 315px;
+  width: 376px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3px;
+  margin-left: 86px;
+  display: flex;
+  position: relative;
+}
+
+.reports_page {
+  background-color: var(--white);
+  height: 1080px;
+  width: 1440px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 3550px;
+  left: 80px;
+}
+
+.overlap-group15 {
+  background-color: var(--valhalla);
+  min-height: 1080px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  padding: 37px 0;
+  display: flex;
+}
+
+.dao_blockchain_projects-8 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 643px;
+  margin-top: 83px;
+  margin-right: 1px;
+}
+
+.flex-row-2 {
+  height: 859px;
+  min-width: 1166px;
+  align-items: flex-start;
+  margin-top: 29px;
+  display: flex;
+}
+
+.overlap-group-container-4 {
+  min-height: 859px;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.report_-container {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.report_topics {
+  letter-spacing: 0;
+  min-height: 66px;
+  width: 310px;
+  align-self: center;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+.report_description {
+  letter-spacing: 0;
+  min-height: 145px;
+  width: 342px;
+  margin-top: 15px;
+}
+
+.report_-container-1 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 32px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.overlap-group-container {
+  min-height: 859px;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 37px;
+  display: flex;
+}
+
+.rectangle-2 {
+  background-color: var(--cyber-grape);
+  height: 100px;
+  width: 1599px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 1px;
+  transform: rotate(-180deg);
+}
+
+.ayana_verse-1 {
+  cursor: pointer;
+  height: 88px;
+  width: 200px;
+  z-index: 8;
+  position: fixed;
+  top: 10px;
+  left: 49px;
+}
+
+.notebook {
+  background-color: var(--white);
+  height: 6800px;
+  width: 1024px;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlap-group16-1 {
+  height: 7500px;
+  width: 1414px;
+  z-index: 1;
+  margin-left: -28px;
+  position: relative;
+}
+
+.background-1 {
+  background-color: var(--valhalla);
+  height: 7500px;
+  width: 1147px;
+  position: absolute;
+  top: 0;
+  left: 18px;
+}
+
+.rectangle-1-1 {
+  background-color: var(--white-2);
+  height: 754px;
+  width: 1024px;
+  position: absolute;
+  top: 0;
+  left: 28px;
+}
+
+.courses_page-1 {
+  background-color: var(--valhalla);
+  height: 800px;
+  width: 1024px;
+  align-items: center;
+  padding: 14px 0;
+  display: flex;
+  position: absolute;
+  top: 1436px;
+  left: 28px;
+  overflow: hidden;
+}
+
+.dao_blockchain_projects-13 {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 97px;
+  margin-bottom: 189px;
+  margin-left: -100px;
+}
+
+.flex-col-5 {
+  min-height: 672px;
+  width: 952px;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: center;
+  margin-left: 25px;
+  display: flex;
+}
+
+.dao_blockchain_projects-14 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 477px;
+  margin-left: 43px;
+}
+
+.graph2-1 {
+  height: 184px;
+  width: 199px;
+  margin-top: 19px;
+  margin-left: 27px;
+}
+
+.overlap-group3-1 {
+  height: 120px;
+  min-width: 952px;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 13px;
+  padding: 10px 15px;
+  display: flex;
+}
+
+.course_-container-1 {
+  min-height: 91px;
+  width: 848px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2px;
+  display: flex;
+}
+
+.course_topics-1 {
+  letter-spacing: 0;
+  min-height: 48px;
+  width: 848px;
+}
+
+.course_description-1 {
+  letter-spacing: 0;
+  min-height: 36px;
+  width: 848px;
+  margin-top: 7px;
+}
+
+.overlap-group-12 {
+  background-color: var(--onahau);
+  height: 40px;
+  min-width: 40px;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 10px;
+  padding: 0 2px;
+  display: flex;
+}
+
+.percent-1 {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 34px;
+}
+
+.overlap-group2 {
+  height: 120px;
+  min-width: 952px;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 10px 13px;
+  display: flex;
+}
+
+.overlap-group-7 {
+  background-color: var(--onahau);
+  height: 40px;
+  min-width: 40px;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 22px;
+  padding: 0 2px;
+  display: flex;
+}
+
+.overlap-group1-4 {
+  height: 120px;
+  min-width: 952px;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 31px;
+  padding: 10px 13px;
+  display: flex;
+}
+
+.overlap-group4-1 {
+  background-color: var(--black-2);
+  height: 195px;
+  min-width: 811px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 33px 81px;
+  display: flex;
+  position: absolute;
+  top: 161px;
+  left: 0;
+}
+
+.dao_blockchain_projects-15 {
+  letter-spacing: 0;
+  min-height: 113px;
+  text-align: right;
+  width: 536px;
+}
+
+.reports_page-1 {
+  background-color: var(--white);
+  height: 1929px;
+  width: 1023px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 4871px;
+  left: 29px;
+  overflow: hidden;
+}
+
+.overlap-group9 {
+  background-color: var(--valhalla);
+  min-height: 2184px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -255px;
+  padding: 122px 137px;
+  display: flex;
+}
+
+.dao_blockchain_projects-16 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 643px;
+  margin-left: 43px;
+}
+
+.flex-row-3 {
+  height: 1138px;
+  min-width: 765px;
+  align-items: flex-start;
+  margin-top: 27px;
+  display: flex;
+}
+
+.overlap-group-container-5 {
+  min-height: 1138px;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.report_-container-2 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.report_topics-1 {
+  letter-spacing: 0;
+  min-height: 66px;
+  width: 310px;
+  align-self: center;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+.report_description-1 {
+  letter-spacing: 0;
+  min-height: 145px;
+  width: 342px;
+  margin-top: 15px;
+}
+
+.report_-container-3 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 26px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.overlap-group-container-6 {
+  min-height: 1138px;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 37px;
+  display: flex;
+}
+
+.report_-container-4 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-end;
+  margin-top: 26px;
+  margin-right: 374px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.foot-1 {
+  background-color: var(--white);
+  height: 170px;
+  width: 1023px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 6630px;
+  left: 29px;
+  overflow: hidden;
+}
+
+.redes_socias-container-1 {
+  background-color: var(--amethyst);
+  height: 170px;
+  min-width: 1594px;
+  align-items: flex-start;
+  padding: 32px 291px;
+  display: flex;
+}
+
+.redes_socias-1-1 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+}
+
+.redes_socias-2-1 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 155px;
+}
+
+.redes_socias-3-1 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 186px;
+}
+
+.projects_page-1 {
+  background-color: var(--white);
+  height: 650px;
+  width: 1024px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 755px;
+  left: 25px;
+  overflow: hidden;
+}
+
+.overlap-group12-1 {
+  background-color: var(--valhalla);
+  min-height: 650px;
+  width: 1219px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -20px;
+  padding: 14px 58.4px;
+  display: flex;
+}
+
+.dao_blockchain_projects-17 {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 444px;
+  align-self: center;
+  margin-top: 111px;
+  margin-right: 119px;
+}
+
+.flex-row-4 {
+  height: 452px;
+  min-width: 953px;
+  align-items: flex-end;
+  margin-top: 24px;
+  display: flex;
+}
+
+.flex-col-6 {
+  min-height: 449px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.dao_blockchain_projects-18 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-right: 15px;
+}
+
+.overlap-group-8 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 23px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-7 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 103px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 18px;
+}
+
+.title-2 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 12px;
+}
+
+.status-2 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 20px;
+}
+
+.overlap-group-9 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 18px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-8 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 106px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 15px;
+}
+
+.number-9 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.flex-col-7 {
+  min-height: 449px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 77px;
+  display: flex;
+}
+
+.defi_blockchain_projects-1 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-left: 19px;
+}
+
+.flex-col-8 {
+  min-height: 452px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 87px;
+  display: flex;
+}
+
+.nft_blockchain_projects-1 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 130px;
+  margin-left: 17px;
+}
+
+.overlap-group8-1 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 26px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.overlap-group11-1 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-13 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.overlap-group-13 {
+  height: 10px;
+  width: 243px;
+  margin-top: 12px;
+  position: relative;
+}
+
+.title-3 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.full-stack-nft-marke-1 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.status-3 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  align-self: flex-start;
+  margin-top: 19px;
+}
+
+.nftview_page-1 {
+  background-color: var(--white);
+  height: 1100px;
+  width: 1024px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 2339px;
+  left: 14px;
+  overflow: hidden;
+}
+
+.overlap-group13-1 {
+  background-color: var(--valhalla);
+  min-height: 1100px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 70px;
+  display: flex;
+}
+
+.dao_blockchain_projects-19 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 735px;
+  margin-top: 58px;
+  margin-left: 79px;
+}
+
+.overlap-group-container-7 {
+  min-width: 895px;
+  align-items: flex-start;
+  margin-top: 39px;
+  display: flex;
+}
+
+.overlap-group-10 {
+  height: 262px;
+  width: 263px;
+  position: relative;
+}
+
+.eth-8, .eth-9, .eth-10, .eth-11, .eth-12, .eth-13, .eth-14, .eth-15 {
+  height: 17px;
+  width: 10px;
+  position: absolute;
+  top: 228px;
+  left: 190px;
+}
+
+.nft_card-1 {
+  height: 259px;
+  width: 263px;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.surname-1 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 78px;
+  position: absolute;
+  top: 214px;
+  left: 179px;
+}
+
+.collection-1 {
+  letter-spacing: 0;
+  width: 95px;
+  position: absolute;
+  top: 216px;
+  left: 13px;
+}
+
+.number-10 {
+  letter-spacing: 0;
+  width: 114px;
+  position: absolute;
+  top: 233px;
+  left: 13px;
+}
+
+.value-1 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 47px;
+  position: absolute;
+  top: 232px;
+  left: 195px;
+}
+
+.rectangle-38-1 {
+  background-color: var(--black);
+  height: 199px;
+  width: 263px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.number-11 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 213px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+}
+
+.number-12 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 114px;
+  position: absolute;
+  top: 91px;
+  left: 75px;
+}
+
+.overlap-group-11 {
+  height: 262px;
+  width: 263px;
+  margin-left: 53px;
+  position: relative;
+}
+
+.overlap-group-container-8 {
+  height: 265px;
+  min-width: 894px;
+  align-items: flex-end;
+  margin-top: 24px;
+  margin-left: 1px;
+  display: flex;
+}
+
+.overlap-group3-2 {
+  height: 262px;
+  width: 263px;
+  align-self: flex-start;
+  position: relative;
+}
+
+.overlap-group4-2 {
+  height: 262px;
+  width: 263px;
+  margin-left: 52px;
+  position: relative;
+}
+
+.overlap-group-container-9 {
+  min-width: 579px;
+  align-items: flex-start;
+  margin-top: 27px;
+  margin-left: 161px;
+  display: flex;
+}
+
+.calendar_page-1 {
+  background-color: var(--white);
+  height: 1541px;
+  width: 1024px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 3439px;
+  left: 19px;
+  overflow: hidden;
+}
+
+.overlap-group14 {
+  background-color: var(--valhalla);
+  min-height: 1541px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 173px 298px;
+  display: flex;
+  position: relative;
+}
+
+.dao_blockchain_projects-20 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 287px;
+  margin-top: 1px;
+  margin-left: 89px;
+}
+
+.overlap-group15-1 {
+  background-color: var(--black-2);
+  height: 222px;
+  min-width: 1279px;
+  align-items: flex-start;
+  padding: 37px 61px;
+  display: flex;
+  position: absolute;
+  top: 405px;
+  left: 133px;
+}
+
+.dao_blockchain_projects-21 {
+  letter-spacing: 0;
+  min-height: 139px;
+  width: 426px;
+}
+
+.ayana_droid-1 {
+  height: 522px;
+  width: 416px;
+  position: absolute;
+  top: 232px;
+  left: 636px;
+}
+
+.rectangle-2-1 {
+  background-color: var(--cyber-grape);
+  height: 100px;
+  width: 1024px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.ayana_verse-1-1 {
+  cursor: pointer;
+  height: 88px;
+  width: 199px;
+  z-index: 7;
+  position: fixed;
+  top: 6px;
+  left: 129px;
+}
+
+.tablet {
+  background-color: var(--white);
+  height: 7900px;
+  width: 768px;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlap-group18 {
+  height: 9065px;
+  width: 1571px;
+  z-index: 1;
+  margin-left: -206px;
+  position: relative;
+}
+
+.background-2 {
+  background-color: var(--valhalla);
+  height: 9065px;
+  width: 1147px;
+  position: absolute;
+  top: 0;
+  left: 195px;
+}
+
+.rectangle-1-2 {
+  background-color: var(--white-2);
+  height: 754px;
+  width: 769px;
+  position: absolute;
+  top: 0;
+  left: 206px;
+}
+
+.overlap-group-20 {
+  background-color: var(--black-2);
+  height: 177px;
+  min-width: 811px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px 81px;
+  display: flex;
+  position: absolute;
+  top: 155px;
+  left: 0;
+}
+
+.dao_blockchain_projects-22 {
+  letter-spacing: 0;
+  min-height: 113px;
+  text-align: right;
+  width: 364px;
+}
+
+.projects_page-2 {
+  background-color: var(--white);
+  height: 1200px;
+  width: 768px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 754px;
+  left: 206px;
+  overflow: hidden;
+}
+
+.overlap-group12-2 {
+  background-color: var(--valhalla);
+  min-height: 1925px;
+  width: 1017px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -725px;
+  padding: 118px 86px;
+  display: flex;
+}
+
+.dao_blockchain_projects-23 {
+  letter-spacing: 0;
+  min-height: 35px;
+  align-self: flex-start;
+  margin-left: 76px;
+}
+
+.flex-row-5 {
+  height: 522px;
+  min-width: 596px;
+  align-self: flex-start;
+  align-items: flex-start;
+  margin-top: 29px;
+  display: flex;
+}
+
+.flex-col-9 {
+  min-height: 449px;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.dao_blockchain_projects-24 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-right: 15px;
+}
+
+.overlap-group-14 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 23px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-14 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 103px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 18px;
+}
+
+.title-4 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 12px;
+}
+
+.status-4 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 20px;
+}
+
+.overlap-group-15 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 18px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-15 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 106px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 15px;
+}
+
+.number-16 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.flex-col-10 {
+  min-height: 522px;
+  width: 330px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 3px;
+  display: flex;
+}
+
+.defi_blockchain_projects-2 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  align-self: center;
+  margin-left: 86px;
+}
+
+.nft_blockchain_projects-2 {
+  letter-spacing: 0;
+  min-height: 16px;
+  align-self: flex-start;
+  margin-top: 57px;
+}
+
+.overlap-group8-2 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 26px;
+  margin-right: 200px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.overlap-group-16 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 18px;
+  margin-right: 200px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.overlap-group11-2 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+  margin-right: 200px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-20 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.overlap-group-21 {
+  height: 10px;
+  width: 243px;
+  margin-top: 12px;
+  position: relative;
+}
+
+.title-5 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.full-stack-nft-marke-2 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.status-5 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  align-self: flex-start;
+  margin-top: 19px;
+}
+
+.courses_page-2 {
+  background-color: var(--valhalla);
+  height: 900px;
+  width: 768px;
+  align-items: center;
+  padding: 64px 0;
+  display: flex;
+  position: absolute;
+  top: 1954px;
+  left: 206px;
+  overflow: hidden;
+}
+
+.dao_blockchain_projects-25 {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 97px;
+  margin-bottom: 289px;
+  margin-left: -100px;
+}
+
+.flex-col-11 {
+  min-height: 718px;
+  width: 666px;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: center;
+  margin-left: 71px;
+  display: flex;
+}
+
+.dao_blockchain_projects-26 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 477px;
+  margin-right: 17px;
+}
+
+.graph2-2 {
+  height: 184px;
+  width: 199px;
+  margin-top: 19px;
+  margin-right: 33px;
+}
+
+.overlap-group-container-10 {
+  height: 226px;
+  min-width: 666px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.overlap-group1-5 {
+  min-height: 226px;
+  width: 321px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 24px 22px;
+  display: flex;
+}
+
+.course_topics2 {
+  letter-spacing: 0;
+  min-height: 48px;
+  width: 274px;
+}
+
+.course_description2 {
+  letter-spacing: 0;
+  min-height: 82px;
+  width: 274px;
+  margin-top: 7px;
+}
+
+.overlap-group-17 {
+  background-color: var(--onahau);
+  height: 40px;
+  min-width: 40px;
+  border-radius: 20px;
+  align-self: center;
+  align-items: center;
+  margin-right: 21px;
+  padding: 0 2px;
+  display: flex;
+}
+
+.percent-2 {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 34px;
+}
+
+.overlap-group2-1 {
+  min-height: 226px;
+  width: 321px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 24px;
+  padding: 24px 22px;
+  display: flex;
+}
+
+.overlap-group3-3 {
+  min-height: 226px;
+  width: 321px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 28px;
+  margin-right: 45px;
+  padding: 24px 22px;
+  display: flex;
+}
+
+.nftview_page-2 {
+  background-color: var(--white);
+  height: 1500px;
+  width: 768px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 2903px;
+  left: 206px;
+  overflow: hidden;
+}
+
+.overlap-group13-2 {
+  background-color: var(--valhalla);
+  min-height: 2339px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -839px;
+  margin-left: -29px;
+  padding: 152px 56px;
+  display: flex;
+}
+
+.dao_blockchain_projects-27 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 735px;
+}
+
+.overlap-group-container-11 {
+  min-width: 579px;
+  align-items: flex-start;
+  margin-top: 39px;
+  margin-left: 76px;
+  display: flex;
+}
+
+.overlap-group-18 {
+  height: 262px;
+  width: 263px;
+  position: relative;
+}
+
+.eth-16, .eth-17, .eth-18, .eth-19, .eth-20, .eth-21, .eth-22, .eth-23 {
+  height: 17px;
+  width: 10px;
+  position: absolute;
+  top: 228px;
+  left: 190px;
+}
+
+.nft_card-2 {
+  height: 259px;
+  width: 263px;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.surname-2 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 78px;
+  position: absolute;
+  top: 214px;
+  left: 179px;
+}
+
+.collection-2 {
+  letter-spacing: 0;
+  width: 95px;
+  position: absolute;
+  top: 216px;
+  left: 13px;
+}
+
+.number-17 {
+  letter-spacing: 0;
+  width: 114px;
+  position: absolute;
+  top: 233px;
+  left: 13px;
+}
+
+.value-2 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 47px;
+  position: absolute;
+  top: 232px;
+  left: 195px;
+}
+
+.rectangle-38-2 {
+  background-color: var(--black);
+  height: 199px;
+  width: 263px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.number-18 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 213px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+}
+
+.number-19 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 114px;
+  position: absolute;
+  top: 91px;
+  left: 75px;
+}
+
+.overlap-group-19 {
+  height: 262px;
+  width: 263px;
+  margin-left: 53px;
+  position: relative;
+}
+
+.overlap-group-container-12 {
+  min-width: 578px;
+  align-items: flex-start;
+  margin-top: 38px;
+  margin-left: 76px;
+  display: flex;
+}
+
+.overlap-group3-4 {
+  height: 262px;
+  width: 263px;
+  margin-left: 52px;
+  position: relative;
+}
+
+.overlap-group-container-13 {
+  min-width: 579px;
+  align-items: flex-start;
+  margin-top: 38px;
+  margin-left: 72px;
+  display: flex;
+}
+
+.overlap-group-container-14 {
+  min-width: 579px;
+  align-items: flex-start;
+  margin-top: 38px;
+  margin-left: 66px;
+  display: flex;
+}
+
+.foot-2 {
+  background-color: var(--white);
+  height: 170px;
+  width: 768px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 7730px;
+  left: 206px;
+  overflow: hidden;
+}
+
+.redes_socias-container-2 {
+  background-color: var(--amethyst);
+  height: 170px;
+  min-width: 1594px;
+  align-items: flex-start;
+  padding: 32px 163px;
+  display: flex;
+}
+
+.redes_socias-1-2 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+}
+
+.redes_socias-2-2 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 155px;
+}
+
+.redes_socias-3-2 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 186px;
+}
+
+.reports_page-2 {
+  background-color: var(--white);
+  height: 1800px;
+  width: 768px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 5893px;
+  left: 206px;
+  overflow: hidden;
+}
+
+.overlap-group15-2 {
+  background-color: var(--valhalla);
+  min-height: 2184px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -384px;
+  margin-left: -143px;
+  padding: 122px 165px;
+  display: flex;
+}
+
+.dao_blockchain_projects-28 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 643px;
+  margin-left: 43px;
+}
+
+.flex-row-6 {
+  height: 1138px;
+  min-width: 737px;
+  align-items: flex-start;
+  margin-top: 27px;
+  display: flex;
+}
+
+.overlap-group-container-15 {
+  min-height: 1138px;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.report_-container-5 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.report_topics-2 {
+  letter-spacing: 0;
+  min-height: 66px;
+  width: 310px;
+  align-self: center;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+.report_description-2 {
+  letter-spacing: 0;
+  min-height: 145px;
+  width: 342px;
+  margin-top: 15px;
+}
+
+.report_-container-6 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 26px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.overlap-group-container-16 {
+  min-height: 1138px;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 9px;
+  display: flex;
+}
+
+.report_-container-7 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-end;
+  margin-top: 26px;
+  margin-right: 318px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.calendar_page-2 {
+  background-color: var(--white);
+  height: 1541px;
+  width: 768px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 4403px;
+  left: 206px;
+  overflow: hidden;
+}
+
+.overlap-group16-2 {
+  background-color: var(--valhalla);
+  min-height: 1541px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 173px 195px;
+  display: flex;
+  position: relative;
+}
+
+.dao_blockchain_projects-29 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 287px;
+  margin-top: 1px;
+  margin-left: 89px;
+}
+
+.overlap-group17 {
+  background-color: var(--black-2);
+  height: 195px;
+  min-width: 1279px;
+  align-items: flex-start;
+  padding: 19.2px 34px;
+  display: flex;
+  position: absolute;
+  top: 405px;
+  left: 290px;
+}
+
+.dao_blockchain_projects-30 {
+  letter-spacing: 0;
+  min-height: 122px;
+  width: 289px;
+}
+
+.ayana_droid-2 {
+  height: 522px;
+  width: 364px;
+  position: absolute;
+  top: 232px;
+  left: 610px;
+}
+
+.rectangle-2-2 {
+  background-color: var(--cyber-grape);
+  height: 100px;
+  width: 769px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.ayana_verse-1-2 {
+  cursor: pointer;
+  height: 88px;
+  width: 199px;
+  z-index: 3;
+  position: fixed;
+  top: 6px;
+  left: 13px;
+}
+
+.projects_bottom-3 {
+  cursor: pointer;
+  height: 24px;
+  min-width: 129px;
+  z-index: 8;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 3.8px 0;
+  display: flex;
+  position: fixed;
+  top: 22px;
+  left: 188px;
+}
+
+.projects-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 90px;
+}
+
+.courses_bottom-3 {
+  cursor: pointer;
+  height: 29px;
+  min-width: 129px;
+  z-index: 7;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 5.7px 0;
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 264px;
+}
+
+.courses-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 82px;
+}
+
+.nft_view_bottom-3 {
+  cursor: pointer;
+  height: 24px;
+  min-width: 118px;
+  z-index: 6;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.9px 0;
+  display: flex;
+  position: fixed;
+  top: 50px;
+  left: 272px;
+}
+
+.nft_view-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 79px;
+}
+
+.calendar_bottom-3 {
+  cursor: pointer;
+  height: 24px;
+  min-width: 128px;
+  z-index: 5;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 2px 0;
+  display: flex;
+  position: fixed;
+  top: 19px;
+  left: 351px;
+}
+
+.calendar-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 89px;
+}
+
+.reports_bottom-4 {
+  cursor: pointer;
+  height: 19px;
+  min-width: 104px;
+  z-index: 9;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1px 0;
+  display: flex;
+  position: fixed;
+  top: 49px;
+  left: 365px;
+}
+
+.reports-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 74px;
+}
+
+.mobile {
+  background-color: var(--white);
+  height: 11600px;
+  width: 479px;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlap-group18-1 {
+  height: 12000px;
+  width: 1701px;
+  z-index: 1;
+  margin-top: -400px;
+  margin-left: -377px;
+  position: relative;
+}
+
+.background-3 {
+  background-color: var(--valhalla);
+  height: 12000px;
+  width: 479px;
+  position: absolute;
+  top: 0;
+  left: 377px;
+}
+
+.rectangle-1-3 {
+  background-color: var(--white-2);
+  height: 1251px;
+  width: 479px;
+  position: absolute;
+  top: 400px;
+  left: 377px;
+}
+
+.overlap-group-25 {
+  background-color: var(--black-2);
+  height: 223px;
+  min-width: 756px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 44px 48px;
+  display: flex;
+  position: absolute;
+  top: 555px;
+  left: 0;
+}
+
+.dao_blockchain_projects-31 {
+  letter-spacing: 0;
+  min-height: 129px;
+  text-align: right;
+  width: 235px;
+}
+
+.projects_page-3 {
+  background-color: var(--white);
+  height: 1750px;
+  width: 479px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 1651px;
+  left: 374px;
+  overflow: hidden;
+}
+
+.overlap-group12-3 {
+  background-color: var(--valhalla);
+  min-height: 2000px;
+  width: 479px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -250px;
+  padding: 116px 84px;
+  display: flex;
+}
+
+.dao_blockchain_projects-32 {
+  letter-spacing: 0;
+  min-height: 70px;
+  text-align: center;
+  width: 279px;
+  align-self: flex-start;
+}
+
+.dao_blockchain_projects-33 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-top: 38px;
+  margin-right: 25px;
+}
+
+.overlap-group-22 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 23px;
+  margin-right: 10px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-21 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 103px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 18px;
+}
+
+.title-6 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 12px;
+}
+
+.status-6 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  margin-top: 20px;
+}
+
+.overlap-group-23 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 18px;
+  margin-right: 10px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-22 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 106px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 15px;
+}
+
+.number-23 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  align-self: center;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.defi_blockchain_projects-3 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 134px;
+  margin-top: 47px;
+  margin-left: 9px;
+}
+
+.nft_blockchain_projects-3 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 130px;
+  margin-top: 66px;
+  margin-left: 7px;
+}
+
+.overlap-group8-3 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 26px;
+  margin-right: 10px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.overlap-group11-3 {
+  min-height: 89px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+  margin-right: 10px;
+  padding: 11px 9px;
+  display: flex;
+}
+
+.number-27 {
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 107px;
+  margin-top: 1px;
+  margin-right: 14px;
+}
+
+.overlap-group-26 {
+  height: 10px;
+  width: 243px;
+  margin-top: 12px;
+  position: relative;
+}
+
+.title-7 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.full-stack-nft-marke-3 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 243px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.status-7 {
+  letter-spacing: 0;
+  min-height: 9px;
+  text-align: center;
+  width: 243px;
+  align-self: flex-start;
+  margin-top: 19px;
+}
+
+.courses_page-3 {
+  background-color: var(--valhalla);
+  height: 1200px;
+  width: 479px;
+  align-items: flex-start;
+  padding: 43px 0;
+  display: flex;
+  position: absolute;
+  top: 3401px;
+  left: 377px;
+  overflow: hidden;
+}
+
+.dao_blockchain_projects-34 {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 97px;
+  margin-top: 245px;
+  margin-left: -100px;
+}
+
+.flex-col-12 {
+  min-height: 1042px;
+  width: 334px;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: flex-end;
+  margin-left: 77px;
+  display: flex;
+}
+
+.dao_blockchain_projects-35 {
+  letter-spacing: 0;
+  min-height: 70px;
+  text-align: center;
+  width: 322px;
+  align-self: flex-start;
+}
+
+.graph2-3 {
+  height: 184px;
+  width: 199px;
+  align-self: center;
+  margin-top: 23px;
+  margin-left: 11px;
+}
+
+.overlap-group1-6 {
+  min-height: 226px;
+  width: 321px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 23px;
+  margin-right: 4px;
+  padding: 24px 22px;
+  display: flex;
+}
+
+.course_topics-2 {
+  letter-spacing: 0;
+  min-height: 48px;
+  width: 274px;
+  align-self: flex-end;
+}
+
+.course_description2-1 {
+  letter-spacing: 0;
+  min-height: 82px;
+  width: 260px;
+  margin-top: 7px;
+  margin-left: 3px;
+}
+
+.overlap-group-24 {
+  background-color: var(--onahau);
+  height: 40px;
+  min-width: 40px;
+  border-radius: 20px;
+  align-self: center;
+  align-items: center;
+  margin-right: 21px;
+  padding: 0 2px;
+  display: flex;
+}
+
+.percent-3 {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 34px;
+}
+
+.overlap-group2-2 {
+  min-height: 226px;
+  width: 321px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 32px;
+  padding: 24px 22px;
+  display: flex;
+}
+
+.course_topics2-1 {
+  letter-spacing: 0;
+  min-height: 48px;
+  width: 274px;
+}
+
+.course_description2-2 {
+  letter-spacing: 0;
+  min-height: 82px;
+  width: 274px;
+  margin-top: 7px;
+}
+
+.overlap-group3-5 {
+  min-height: 226px;
+  width: 321px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  margin-right: 2px;
+  padding: 24px 22px;
+  display: flex;
+}
+
+.course_description2-3 {
+  letter-spacing: 0;
+  min-height: 60px;
+  width: 272px;
+  margin-top: 7px;
+  margin-left: 1px;
+}
+
+.overlap-group-27 {
+  background-color: var(--onahau);
+  height: 40px;
+  min-width: 40px;
+  border-radius: 20px;
+  align-items: center;
+  margin-top: 22px;
+  margin-right: 21px;
+  padding: 0 2px;
+  display: flex;
+}
+
+.nftview_page-3 {
+  background-color: var(--white);
+  height: 2800px;
+  width: 479px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 4601px;
+  left: 375px;
+  overflow: hidden;
+}
+
+.overlap-group13-3 {
+  height: 3000px;
+  width: 888px;
+  margin-bottom: -200px;
+  margin-left: -120px;
+  position: relative;
+}
+
+.background-4 {
+  background-color: var(--valhalla);
+  height: 3000px;
+  width: 768px;
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+.dao_blockchain_projects-36 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 735px;
+  position: absolute;
+  top: 141px;
+  left: 0;
+}
+
+.overlap-group-28 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 238px;
+  left: 232px;
+}
+
+.eth-24, .eth-25, .eth-26, .eth-27, .eth-28, .eth-29, .eth-30, .eth-31 {
+  height: 17px;
+  width: 10px;
+  position: absolute;
+  top: 228px;
+  left: 190px;
+}
+
+.nft_card-3 {
+  height: 259px;
+  width: 263px;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.surname-3 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 78px;
+  position: absolute;
+  top: 214px;
+  left: 179px;
+}
+
+.collection-3 {
+  letter-spacing: 0;
+  width: 95px;
+  position: absolute;
+  top: 216px;
+  left: 13px;
+}
+
+.number-24 {
+  letter-spacing: 0;
+  width: 114px;
+  position: absolute;
+  top: 233px;
+  left: 13px;
+}
+
+.value-3 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 47px;
+  position: absolute;
+  top: 232px;
+  left: 195px;
+}
+
+.rectangle-38-3 {
+  background-color: var(--black);
+  height: 199px;
+  width: 263px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.number-25 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 213px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+}
+
+.number-26 {
+  letter-spacing: 0;
+  text-align: center;
+  width: 114px;
+  position: absolute;
+  top: 91px;
+  left: 75px;
+}
+
+.overlap-group1-7 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 561px;
+  left: 232px;
+}
+
+.overlap-group2-3 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 884px;
+  left: 232px;
+}
+
+.overlap-group3-6 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 1207px;
+  left: 232px;
+}
+
+.overlap-group4-3 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 1530px;
+  left: 232px;
+}
+
+.overlap-group5-1 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 1853px;
+  left: 232px;
+}
+
+.overlap-group6 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 2176px;
+  left: 232px;
+}
+
+.overlap-group7 {
+  height: 262px;
+  width: 263px;
+  position: absolute;
+  top: 2499px;
+  left: 232px;
+}
+
+.calendar_page-3 {
+  background-color: var(--white);
+  height: 1400px;
+  width: 479px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 7401px;
+  left: 379px;
+  overflow: hidden;
+}
+
+.overlap-group14-1 {
+  background-color: var(--valhalla);
+  min-height: 1541px;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -141px;
+  padding: 173px 45px;
+  display: flex;
+  position: relative;
+}
+
+.dao_blockchain_projects-37 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 287px;
+  margin-top: 1px;
+  margin-left: 89px;
+}
+
+.reports_page-3 {
+  background-color: var(--white);
+  height: 3000px;
+  width: 479px;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 8829px;
+  left: 377px;
+  overflow: hidden;
+}
+
+.overlap-group15-3 {
+  background-color: var(--valhalla);
+  min-height: 3600px;
+  width: 768px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -600px;
+  padding: 122px 56px;
+  display: flex;
+}
+
+.dao_blockchain_projects-38 {
+  letter-spacing: 0;
+  min-height: 35px;
+  text-align: center;
+  width: 339px;
+  margin-left: 12px;
+}
+
+.report_-container-9 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 107px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.report_topics-3 {
+  letter-spacing: 0;
+  min-height: 66px;
+  width: 310px;
+  align-self: center;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+.report_description-3 {
+  letter-spacing: 0;
+  min-height: 145px;
+  width: 342px;
+  margin-top: 15px;
+}
+
+.report_-container-8 {
+  min-height: 265px;
+  width: 364px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 31px;
+  padding: 15px 1px;
+  display: flex;
+}
+
+.foot-3 {
+  background-color: var(--white);
+  height: 170px;
+  width: 479px;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 11830px;
+  left: 377px;
+}
+
+.redes_socias-container-3 {
+  background-color: var(--amethyst);
+  height: 170px;
+  min-width: 479px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 32px 35px;
+  display: flex;
+}
+
+.redes_socias-1-3 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+}
+
+.redes_socias-2-3 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 136px;
+}
+
+.redes_socias-3-3 {
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  margin-left: 138px;
+}
+
+.ayana_droid-3 {
+  height: 522px;
+  width: 479px;
+  position: absolute;
+  top: 1129px;
+  left: 402px;
+}
+
+.overlap-group17-1 {
+  background-color: var(--black-2);
+  height: 207px;
+  min-width: 1279px;
+  align-items: flex-end;
+  padding: 14px 53px;
+  display: flex;
+  position: absolute;
+  top: 810px;
+  left: 420px;
+}
+
+.dao_blockchain_projects-39 {
+  letter-spacing: 0;
+  min-height: 167px;
+  width: 274px;
+}
+
+.rectangle-2-3 {
+  background-color: var(--cyber-grape);
+  height: 100px;
+  width: 479px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.ayana_verse-1-3 {
+  cursor: pointer;
+  height: 74px;
+  width: 150px;
+  z-index: 4;
+  position: fixed;
+  top: 6px;
+  left: 21px;
+}
+
+/*# sourceMappingURL=index.e1b8c111.css.map */

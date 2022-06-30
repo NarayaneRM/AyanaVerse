@@ -1,0 +1,20 @@
+.calendar_bottom-3 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  justify-content: flex-end;
+  left: 351px;
+  min-width: 128px;
+  padding: 2.0px 0.0px;
+  position: fixed;
+  top: 19px;
+  z-index: 5;
+}
+
+.calendar-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 89px;
+}
+
