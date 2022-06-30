@@ -1,0 +1,33 @@
+.month_2,
+.month_2-1,
+.month_2-2,
+.month_2-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 4px;
+  min-width: 62px;
+}
+
+.overlap-group1-3,
+.overlap-group1-4,
+.overlap-group1-5,
+.overlap-group1-6 {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: flex;
+  height: 60px;
+  min-width: 60px;
+  padding: 23px 0;
+}
+
+.month_name,
+.month_name-1,
+.month_name-2,
+.month_name-3 {
+  letter-spacing: 0;
+  margin-left: -1px;
+  min-height: 11px;
+  text-align: center;
+  width: 60px;
+}
+

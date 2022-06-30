@@ -1,0 +1,31 @@
+.reports_bottom {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 1369px;
+  min-width: 114px;
+  padding: 1.0px 0;
+  position: fixed;
+  top: 38px;
+  z-index: 3;
+}
+
+.reports {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 81px;
+}
+
+.reports_bottom.reports_bottom-1 {
+  left: 871px;
+  top: 36px;
+  z-index: 8;
+}
+
+.reports_bottom.reports_bottom-2 {
+  left: 641px;
+  z-index: 8;
+}
+

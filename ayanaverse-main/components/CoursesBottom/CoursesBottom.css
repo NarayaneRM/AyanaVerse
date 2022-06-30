@@ -1,0 +1,30 @@
+.courses_bottom {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  left: 995px;
+  min-width: 129px;
+  padding: 5.7px 0;
+  position: fixed;
+  top: 33px;
+  z-index: 6;
+}
+
+.courses {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 82px;
+}
+
+.courses_bottom.courses_bottom-1 {
+  left: 557px;
+  z-index: 5;
+}
+
+.courses_bottom.courses_bottom-2 {
+  left: 340px;
+  top: 35px;
+}
+
